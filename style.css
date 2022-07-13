@@ -1,3 +1,5 @@
+
+/* Header attributes to include color, font, alignmnet */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -21,7 +23,7 @@
     display: inline-block;
     margin-left: 25px;
 }
-
+/* Header attributes to include color, font, alignmnet */
 .footer {
     padding: 30px;
     clear: both;
