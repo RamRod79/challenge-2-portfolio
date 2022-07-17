@@ -25,10 +25,8 @@
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
-    color: navy;
     letter-spacing: 5px;
-    border-bottom: solid 5px navy;
-}
+    }
 
 nav a:hover {
     background-color: navy;
@@ -38,6 +36,7 @@ nav a:hover {
 .link {
     text-decoration: none;
     color: navy;
+    border-bottom: solid 5px navy;
 }
 body {
     background-color: rgba(128, 128, 128, 0.403);
@@ -66,11 +65,12 @@ h2 {
 .contact-me {
     /*width: 33%;*/
     text-align: left;
-    padding-right: 20px;
+    padding-right: 35px;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
     margin: 100px 0;
+    font-size: 30px;
 }
 
 .about-me div,
