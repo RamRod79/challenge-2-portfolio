@@ -77,8 +77,6 @@ h2 {
 .work-1 div,
 .contact-me nav {
     width: 66%;
-    display: flex;
-    flex-wrap: wrap;
     padding-left: 10px;
     border-left: solid navy 5px;
 }
@@ -98,15 +96,7 @@ h2 {
 .horiseon {
     width: 100%;
     height: 500px;
-}
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.row-1 {
-    display: flex;
-    flex-wrap: wrap;
+    border-left: solid navy 5px;
 }
 
 .subtext {
