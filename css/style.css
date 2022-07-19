@@ -44,6 +44,10 @@ nav a:hover {
     font-weight: 200;
     height: 10px;
 }
+h2 {
+    background-color: rgb(142, 142, 225);
+    color: navy;
+}
 
 /*hero section with background picture*/
 
@@ -87,6 +91,7 @@ body {
     min-width: 15%;
     text-align:right;
     padding-right: 20px;
+    font-size: 28px
  }
  
  .about-me div, .work-1 div.projects, .contact-me div {
@@ -110,10 +115,10 @@ body {
  }
  
  .work-1 div.projects div {
-    outline: solid rgb(118, 118, 212) 5px;
+    outline: solid #30627b 5px;
     min-width: 35%;
     min-height: 15px;
-    background-color: rgb(118, 118, 212);
+    background-color: #30627b;
  }
  
  .work-1 div.projects div:first-child {
