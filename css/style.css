@@ -38,6 +38,27 @@ nav a:hover {
     color: navy;
     border-bottom: solid 5px navy;
 }
+
+.subtext {
+    font-size: 10px;
+    font-weight: 200;
+    height: 10px;
+}
+
+/*hero section with background picture*/
+
+#hero {
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    margin-bottom: 25px;
+    background-image: url("../images/space.jpg");
+    background-position: center;
+    background-size: cover;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
 body {
     background-color: rgba(128, 128, 128, 0.403);
     font-family: 'Montserrat', sans-serif;
@@ -55,71 +76,53 @@ body {
     align-items: flex-end;
 }
 
-h2 {
-    background-color: rgb(142, 142, 225);
-    color: navy;
-}
 
-.about-me,
-.work-1,
-.contact-me {
-    /*width: 33%;*/
-    text-align: left;
-    padding-right: 35px;
+/*Estbalishing wire frame*/
+.about-me, .work-1, .contact-me {
+    display: flex;
+    /* flex-wrap: wrap; */
+ }
+ 
+ .about-me header, .work-1 header, .contact-me header {
+    min-width: 15%;
+    text-align:right;
+    padding-right: 20px;
+ }
+ 
+ .about-me div, .work-1 div.projects, .contact-me div {
+    min-width: 75%;
+    border-left: solid navy 3px;
+    padding-left: 20px;
+    margin: 20px 0;
+ }
+
+ .contact-me div {
+    min-width: 75%;
+    border-left: solid navy 3px;
+    padding-left: 20px;
+    margin: 20px 0;
+    height: fit-content;
+ }
+ 
+ .work-1 div.projects {
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
-    margin: 100px 0;
-    font-size: 30px;
-}
+ }
+ 
+ .work-1 div.projects div {
+    outline: solid rgb(118, 118, 212) 5px;
+    min-width: 35%;
+    min-height: 15px;
+    background-color: rgb(118, 118, 212);
+ }
+ 
+ .work-1 div.projects div:first-child {
+    width: 76%;
+    min-height: 300px;
+ }
 
-.about-me div,
-.work-1 div,
-.contact-me nav {
-    width: 66%;
-    padding-left: 10px;
-    border-left: solid navy 5px;
-}
-.project-container {
-    width: 300px;
-    height: 500px;
-   border: 5px 5px 20px rgba(128, 128, 128, 0.403);
-   margin: 10px;
-}
 
-.projects {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.horiseon {
-    width: 100%;
-    height: 500px;
-    border-left: solid navy 5px;
-}
-
-.subtext {
-    font-size: 10px;
-    font-weight: 200;
-}
-
-.project-image {
-    margin-top: 25px;
-    width:20%;
-    height: 150px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
-    padding: 5px navy;
-
-}
-
-.hr {
-    margin-left: 20px;
-    margin-right: 20px;
-}
-/* Footer attributes to include color, font, alignmnet */
+ /* Footer attributes to include color, font, alignmnet */
 .contact-me {
     height: 500px;
    }
