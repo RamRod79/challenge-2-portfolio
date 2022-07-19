@@ -1,0 +1,133 @@
+/* Header attributes to include color, font, alignmnet, to include hover */
+.header {
+    padding: 20px;
+    background-color: #30627b;
+    color: #fcf9f9;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+    color: navy;
+    background-color: rgb(142, 142, 225);
+
+}
+
+.header nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+        font-size: 20px;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    letter-spacing: 5px;
+    }
+
+nav a:hover {
+    background-color: navy;
+    color: white;
+}
+
+.link {
+    text-decoration: none;
+    color: navy;
+    border-bottom: solid 5px navy;
+}
+
+.subtext {
+    font-size: 10px;
+    font-weight: 200;
+}
+
+/*hero section with background picture*/
+
+#hero {
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    margin-bottom: 25px;
+    background-image: url("../images/space.jpg");
+    background-position: center;
+    background-size: cover;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+body {
+    background-color: rgba(128, 128, 128, 0.403);
+    font-family: 'Montserrat', sans-serif;
+}
+
+#hero {
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    margin-bottom: 25px;
+    background-image: url("../images/space.jpg");
+    background-position: center;
+    background-size: cover;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+/*Estbalishing wire frame*/
+.about-me, .work-1, .contact-me {
+    display: flex;
+    /* flex-wrap: wrap; */
+ }
+ 
+ .about-me header, .work-1 header, .contact-me header {
+    min-width: 15%;
+    text-align:right;
+    padding-right: 20px;
+ }
+ 
+ .about-me div, .work-1 div.projects, .contact-me div {
+    min-width: 75%;
+    border-left: solid red 3px;
+    padding-left: 20px;
+    margin: 20px 0;
+ }
+ 
+ .work-1 div.projects {
+    display: flex;
+    flex-wrap: wrap;
+ }
+ 
+ .work-1 div.projects div {
+    outline: dashed red 3px;
+    min-width: 50%;
+    min-height: 250px;
+ }
+ 
+ .work-1 div.projects div:first-child {
+    width: 100%;
+    min-height: 300px;
+ }
+
+ /* Footer attributes to include color, font, alignmnet */
+.contact-me {
+    height: 500px;
+   }
+
+.contact-me nav {
+    justify-content: space-between;
+    color: navy;
+}
+.contact-me nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+   }
+
+.contact-me nav ul li {
+    width: 200px;
+    color: navy;
+    text-decoration: none;
+}
