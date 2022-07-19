@@ -118,6 +118,7 @@ body {
     outline: solid #30627b 5px;
     min-width: 35%;
     min-height: 15px;
+    margin: 15px;
     background-color: #30627b;
  }
  
@@ -126,6 +127,10 @@ body {
     min-height: 300px;
  }
 
+ .project-link {
+    dedcoration: none;
+    color:black;
+ }
 
  /* Footer attributes to include color, font, alignmnet */
 .contact-me {
