@@ -116,7 +116,7 @@ body {
  
  .work-1 div.projects div {
     outline: solid #30627b 5px;
-    min-width: 35%;
+    min-width: 15%;
     min-height: 15px;
     margin: 15px;
     background-color: #30627b;
@@ -151,4 +151,11 @@ body {
     width: 200px;
     color: navy;
     text-decoration: none;
+}
+
+.netflix-and-grill {
+    max-height: 250px;
+    max-width: 300px;
+    width: 100%;
+    height: auto;    
 }
