@@ -153,9 +153,16 @@ body {
     text-decoration: none;
 }
 
+.horiseon {
+    max-height: 250%;
+    max-width: 200%;
+    width: 100%;
+    height: auto;    
+}
+
 .netflix-and-grill {
-    max-height: 250px;
-    max-width: 300px;
+    max-height: 350px;
+    max-width: 400px;
     width: 100%;
     height: auto;    
 }
